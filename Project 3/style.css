@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* nav content */
+
+header {
+ text-align: center;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+    padding: 10px ;
+    border-bottom: #bababad6 1px solid;
+}
+.active {
+    color: rgba(24, 223, 24, 0.778);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(24, 223, 24, 0.778);
+}
+nav ul, aside ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a, .name, .pname {
+    font-weight: 200;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    color: white;
+}
+.pname {
+    font-size: 1.6em;
+
+}
+
+
+/* main content */
+
+main .container {
+    height: 30em;
+    padding: 3em;
+}
+
+#branch {
+    position: absolute;
+    width: 46%;
+    right: 0;
+    transform: translate(13em,7em);
+}
+#lpr {
+    height:132%; 
+    right:0; 
+    position: relative;
+}
+
+main{
+    opacity: 95%; 
+    background: black;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.container {
+    padding: 15px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.container img {
+    right: 0;
+    display: flex;
+    justify-content: end;
+}
+
+h1{
+    font-weight: 300;
+}
+
+input{
+  background-color: transparent;
+  border: solid white 2px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input:hover {
+    background: rgba(24, 223, 24, 0.778);
+}
+
+ ul {
+    margin-bottom: 5px ;
+    list-style-type: none;
+}
+li{
+    font-weight: 200;
+}
+.content ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 19em;
+}
+
+
+
+/* footer */
+
+footer{
+    background-color: #000000; 
+    background-color: black;
+    padding: 35px 25px;
+    z-index: 0;
+}
+
+.footer-content {
+    padding: 40px 4em 0px 4em;
+    display: flex;
+    justify-content:space-between ;
+}
+
+  
+  
